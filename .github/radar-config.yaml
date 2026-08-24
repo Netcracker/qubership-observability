@@ -73,7 +73,7 @@ applications:
         release-workflow: jaeger-release.yaml
 
   - id: opentelemetry
-    title: Tracing
+    title: OpenTelemetry
     issue-label: radar/opentelemetry
     components:
       - repo: Netcracker/qubership-open-telemetry-collector
