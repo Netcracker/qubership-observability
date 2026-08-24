@@ -66,10 +66,12 @@ applications:
 
 Components ship in one of two ways, and the radar links to whichever applies:
 
-| `release-method` | What the component does | Where the issue links |
-|---|---|---|
-| `workflow` | a `workflow_dispatch` release workflow builds and tags | the workflow's run page |
-| `release` | `build.yml` triggers on `release: created` | a new-release form, prefilled with the computed version |
+<!-- markdownlint-disable line-length -->
+| `release-method` | What the component does                                | Where the issue links                                   |
+| ---------------- | ------------------------------------------------------ | ------------------------------------------------------- |
+| `workflow`       | a `workflow_dispatch` release workflow builds and tags | the workflow's run page                                 |
+| `release`        | `build.yml` triggers on `release: created`             | a new-release form, prefilled with the computed version |
+<!-- markdownlint-enable line-length -->
 
 When a `workflow` component has no such workflow, the radar says so instead of printing a dead link.
 
