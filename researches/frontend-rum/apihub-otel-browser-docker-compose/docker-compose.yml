@@ -197,7 +197,7 @@ services:
   # OpenTelemetry Collector — single entrypoint for all Grafana Faro telemetry (OTLP).
   # Fans out: logs -> VictoriaLogs, traces -> Grafana Tempo.
   otel-collector:
-    image: otel/opentelemetry-collector-contrib:0.123.0@sha256:e39311df1f3d941923c00da79ac7ba6269124a870ee87e3c3ad24d60f8aee4d2
+    image: otel/opentelemetry-collector-contrib:0.162.0@sha256:39923a8e431bd1f57be82411999d389fcfe40857492e4365456d97a4c1f74be6
     container_name: otel-collector
     command: ["--config=/etc/otelcol/config.yaml"]
     volumes:
