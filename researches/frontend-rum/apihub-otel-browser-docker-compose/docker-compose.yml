@@ -213,7 +213,7 @@ services:
 
   # VictoriaLogs — log storage & query backend.
   victorialogs:
-    image: victoriametrics/victoria-logs:v1.51.0@sha256:e16dd33a95623cc21730cf5285344ed9f97419eeaff7d24b039c135beb85ee7e
+    image: victoriametrics/victoria-logs:v1.53.0@sha256:251121fa882af99b95ba0c230a4a2f412ea602d2698c64a96c58dc9842bb755d
     container_name: victorialogs
     command:
     - "--storageDataPath=/vlogs"
