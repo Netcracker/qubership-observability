@@ -2,7 +2,7 @@ version: '3.9'
 services:
   ################################################# APIHUB components ################################################
   qubership-apihub-backend:
-    image: ghcr.io/netcracker/qubership-apihub-backend:dev@sha256:1f3971da8e9e176c2f76e1852a72b524e3f7d52d900ae9d4411c51d422d283b4
+    image: ghcr.io/netcracker/qubership-apihub-backend:dev@sha256:5c14bb7b4ec81e08638f6b0eca0f319fe264fdb7705adffc5b79bb6edb2b990c
     #image: localhost/netcracker/qubership-apihub-backend:latest
     container_name: qubership-apihub-backend
     ports:
