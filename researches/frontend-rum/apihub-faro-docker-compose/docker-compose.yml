@@ -139,7 +139,7 @@ services:
         condition: service_healthy
 
   postgres:
-    image: docker.io/postgres@sha256:bc8d7bdd54dc38115ef954fef07f30a96bb2b5b080effa692e0093f03eabac8f
+    image: docker.io/postgres@sha256:979bccfde35445db618c65107d27d08c6c21339d8dc3ad4c830c6633947be0e4
     container_name: postgres
     command:
     - "postgres"
