@@ -87,7 +87,7 @@ services:
         condition: service_healthy
 
   qubership-api-linter-service:
-    image: ghcr.io/netcracker/qubership-api-linter-service:dev@sha256:d21c1daf82a954f9a95fc1ed19b568a196532bfd5e6db7758d055b899ca98734
+    image: ghcr.io/netcracker/qubership-api-linter-service:dev@sha256:cf1c11495665b80264b5eee8761d3f4c0e084c62cdfbc3bf0e341201e0933430
     container_name: qubership-api-linter-service
     ports:
     - "8091:8080"
