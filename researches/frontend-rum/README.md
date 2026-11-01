@@ -90,7 +90,7 @@ JSON for this dashboard already added in PoC and available in [Grafana Faro Vict
 
 ### Run PoC
 
-Based of official docker compose from [https://github.com/Netcracker/qubership-apihub/tree/main/docker-compose/apihub-generic](https://github.com/Netcracker/qubership-apihub/tree/main/docker-compose/apihub-generic).
+Based of official docker compose from [https://github.com/Netcracker/qubership-apihub/tree/develop/deploy/docker-compose/apihub-generic](https://github.com/Netcracker/qubership-apihub/tree/develop/deploy/docker-compose/apihub-generic).
 
 But it extended:
 
@@ -166,7 +166,7 @@ Credentials:
 
 ### Run PoC
 
-Based of official docker compose from [https://github.com/Netcracker/qubership-apihub/tree/main/docker-compose/apihub-generic](https://github.com/Netcracker/qubership-apihub/tree/main/docker-compose/apihub-generic).
+Based of official docker compose from [https://github.com/Netcracker/qubership-apihub/tree/develop/deploy/docker-compose/apihub-generic](https://github.com/Netcracker/qubership-apihub/tree/develop/deploy/docker-compose/apihub-generic).
 
 But it extended:
 
