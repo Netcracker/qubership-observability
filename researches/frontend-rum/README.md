@@ -90,7 +90,7 @@ JSON for this dashboard already added in PoC and available in [Grafana Faro Vict
 
 ### Run PoC
 
-Based of official docker compose from [https://github.com/Netcracker/qubership-apihub/tree/main/docker-compose/apihub-generic](https://github.com/Netcracker/qubership-apihub/tree/main/docker-compose/apihub-generic).
+Based of official Docker Compose from [https://github.com/Netcracker/qubership-apihub/tree/develop/deploy/docker-compose/apihub-generic](https://github.com/Netcracker/qubership-apihub/tree/develop/deploy/docker-compose/apihub-generic).
 
 But it extended:
 
@@ -103,8 +103,8 @@ Small changes in configurations.
 
 #### Requirements
 
-- docker or podman
-- docker compose or podman compose
+- Docker or podman
+- Docker Compose or podman compose
 
 #### How to run PoC
 
@@ -140,7 +140,7 @@ Small changes in configurations.
       adminPassword: <password>
     ```
 
-5. Run docker compose
+5. Run Docker Compose
 
     ```bash
     docker compose up
@@ -164,9 +164,11 @@ Credentials:
 
 ## OpenTelemetry Browser + Qubership APIHUB
 
-### Run PoC
+<a id="run-poc-1"></a>
 
-Based of official docker compose from [https://github.com/Netcracker/qubership-apihub/tree/main/docker-compose/apihub-generic](https://github.com/Netcracker/qubership-apihub/tree/main/docker-compose/apihub-generic).
+### Run OpenTelemetry Browser PoC
+
+Based of official Docker Compose from [https://github.com/Netcracker/qubership-apihub/tree/develop/deploy/docker-compose/apihub-generic](https://github.com/Netcracker/qubership-apihub/tree/develop/deploy/docker-compose/apihub-generic).
 
 But it extended:
 
@@ -177,12 +179,16 @@ But it extended:
 
 Small changes in configurations.
 
-#### Requirements
+<a id="requirements-1"></a>
 
-- docker or podman
-- docker compose or podman compose
+#### OpenTelemetry Browser requirements
 
-#### How to run PoC
+- Docker or podman
+- Docker Compose or podman compose
+
+<a id="how-to-run-poc-1"></a>
+
+#### How to run OpenTelemetry Browser PoC
 
 1. Clone this repository
 
@@ -216,7 +222,7 @@ Small changes in configurations.
       adminPassword: <password>
     ```
 
-5. Run docker compose
+5. Run Docker Compose
 
     ```bash
     docker compose up
