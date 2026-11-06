@@ -36,7 +36,7 @@ We will adopt OpenTelemetry as the sole framework for collecting and exporting M
   - [Dynatrace](https://www.dynatrace.com/integrations/opentelemetry/)
   - [New Relic](https://newrelic.com/solutions/opentelemetry)
   - [DataDog](https://docs.datadoghq.com/opentelemetry/)
-  - [Splunk](https://www.splunk.com/en_us/solutions/opentelemetry.html)
+  - [Splunk](https://help.splunk.com/en/splunk-observability-cloud/get-started/splunk-observability-cloud-overview/splunk-observability-cloud-overview)
 
 Alternatives considered:
 - In telemetry data layer there are no any vendor-agnostic format or it's outdated. Specific cloud providers or APM vendors support their own formats.
