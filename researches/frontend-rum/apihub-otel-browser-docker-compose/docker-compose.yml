@@ -35,7 +35,7 @@ services:
         condition: service_healthy
 
   qubership-apihub-build-task-consumer:
-    image: ghcr.io/netcracker/qubership-apihub-build-task-consumer:dev@sha256:50d7b456e2e5341fdced3c8045379cc6f777c14f2dc9febf79c14d0e86711c76
+    image: ghcr.io/netcracker/qubership-apihub-build-task-consumer:dev@sha256:ab6c4935ae7a4f9da506b0ba469238609a3678f00944ea53b8800b57a2ca3855
     container_name: qubership-apihub-build-task-consumer
     ports:
     - "3001:3001"
