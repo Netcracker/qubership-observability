@@ -113,7 +113,7 @@ services:
         condition: service_healthy
 
   qubership-apihub-agents-backend:
-    image: ghcr.io/netcracker/qubership-apihub-agents-backend:dev@sha256:7a5e5625e71fd974fcd935eebc574664336bb7cd2098a07813e2eb5823efc4c3
+    image: ghcr.io/netcracker/qubership-apihub-agents-backend:dev@sha256:8a832109e32ce7e5827d5da636dda9a08b66c75e59e10c9c0841de848a28c4d4
     container_name: qubership-apihub-agents-backend
     ports:
     - "8092:8080"
